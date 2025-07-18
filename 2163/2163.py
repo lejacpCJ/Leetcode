@@ -8,7 +8,6 @@ class Solution:
         
         heap = []
         curr_sum = 0
-
         for i in range(2 * n):
             heapq.heappush(heap, -nums[i])
             curr_sum += nums[i]
@@ -19,7 +18,6 @@ class Solution:
                 left_sum[i] = curr_sum
             else:
                 left_sum[i] = float('inf')
-
 
         heap = []
         curr_sum = 0
@@ -35,8 +33,8 @@ class Solution:
                 right_sum[i] = float('-inf')
         
         res = float('inf')
-
         for i in range(n -1 , 2 * n):
             res = min(res, left_sum[i] - right_sum[i+1])
+            
         return res
         
