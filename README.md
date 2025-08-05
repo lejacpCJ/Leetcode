@@ -16,4 +16,4 @@ This repository contains solutions to various problems from [LeetCode](https://l
 
 ## License
 
-This repository is for educational purposes only. Please respect LeetCode’s terms of service and do not use these solutions for cheating or
+This repository is for educational purposes only. Please respect LeetCode’s terms of service.
